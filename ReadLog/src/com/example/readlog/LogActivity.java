@@ -102,7 +102,7 @@ public class LogActivity extends Activity {
 		} catch (Exception e) {
 			Log.d("msg", e.toString());
 			client.getConnectionManager().shutdown(); // 연결 지연 종료
-			Toast.makeText(getApplicationContext(), "연결실패 ",
+			Toast.makeText(getApplicationContext(), "연결실패3333 ",
 					Toast.LENGTH_LONG).show();
 			return "";
 		}
